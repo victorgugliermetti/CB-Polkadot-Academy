@@ -3,17 +3,18 @@ programa {
   {
     real numero1, numero2, numero3, media
 
-    escreva("Digite o primeiro número: ")
+    escreva("Digite o primeiro nÃºmero: ")
     leia(numero1)
 
-    escreva("Digite o segundo número: ")
+    escreva("Digite o segundo nÃºmero: ")
     leia(numero2)
 
-    escreva("Digite o terceiro número: ")
+    escreva("Digite o terceiro nÃºmero: ")
     leia(numero3)
 
     media = (numero1 + numero2 + numero3 / 3)
 
-    escreva("A média dos números é: ", media)
+    escreva("A mÃ©dia dos nÃºmeros Ã©: ", media)
   }
 }
+
