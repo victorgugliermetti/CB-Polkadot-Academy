@@ -13,3 +13,4 @@ print("Números primos no intervalo de", inicio, "a", fim, "são:")
 for numero in range(inicio, fim + 1):
   if eh_primo(numero):
     print(numero, end=" ")
+
