@@ -5,3 +5,4 @@ elif temperatura < 15:
   print("Está frio.")  # Se a temperatura for menor que 30, imprime a mensagem que está quente.
 else:
   print("Está agradável.")  # Se não atender as duas primeiras, a temperatura será agradável
+
