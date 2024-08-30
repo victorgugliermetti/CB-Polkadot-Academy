@@ -3,18 +3,17 @@ programa {
   {
     inteiro numero
 
-    escreva("Digite um nÃºmero: ")
+    escreva("Digite um número: ")
     leia(numero)
 
     se (numero % 2 == 0)
 
     {
-     escreva("O nÃºmero Ã© par")
+     escreva("O número é par")
     }
     senao
     { 
-      escreva("O nÃºmero Ã© impar")
+      escreva("O número é impar")
     } 
   }
 }
-
