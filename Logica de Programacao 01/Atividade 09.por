@@ -3,7 +3,7 @@ programa {
   {
     inteiro numero, fatorial = 1
 
-    escreva("Digite um número inteiro positivo: ")
+    escreva("Digite um nÃºmero inteiro positivo: ")
     leia(numero)
 
     para(inteiro i = 1; i <= numero; i++)
@@ -11,7 +11,8 @@ programa {
       fatorial = fatorial * i
     }  
   
-    escreva("O fatorial de ", numero, " é: ", fatorial)
+    escreva("O fatorial de ", numero, " Ã©: ", fatorial)
   
   }
 }
+
