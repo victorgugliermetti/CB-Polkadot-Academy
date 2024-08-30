@@ -3,7 +3,7 @@ programa {
   {
   inteiro numero
 
-  escreva("Digite um número para ver sua tabuada: ")
+  escreva("Digite um nÃºmero para ver sua tabuada: ")
   leia(numero)
 
   para(inteiro i = 1; i <= 10; i++)
@@ -12,3 +12,4 @@ programa {
   }
   }
 }
+
