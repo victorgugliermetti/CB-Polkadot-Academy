@@ -8,3 +8,4 @@ def count_a(frase):
 frase = input("Digite uma frase: ")
 resultado = count_a(frase)
 print("O número de vezes que a letra a aparece na frase é:", resultado)
+
