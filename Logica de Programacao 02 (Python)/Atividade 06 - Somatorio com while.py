@@ -6,3 +6,4 @@ while num != 0:
   soma += num
 
 print("A soma dos números é:", soma)
+
