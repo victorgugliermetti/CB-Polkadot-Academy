@@ -6,7 +6,7 @@ programa {
     para(inteiro i = 1; i <= 5; i++)
 
     { 
-      escreva ("Digite o número ", i, ": ")
+      escreva ("Digite o nÃºmero ", i, ": ")
       leia(numero)
 
       se (numero > 0)
@@ -14,6 +14,7 @@ programa {
         contador++
       }
     }
-    escreva("Você digitou ", contador, " numeros positivos.")
+    escreva("VocÃª digitou ", contador, " numeros positivos.")
   } 
 }
+
