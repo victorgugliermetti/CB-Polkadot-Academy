@@ -1,37 +1,38 @@
 programa {
   funcao inicio()
   {
-    // Declara uma vari·vel inteira para armazenar o ano
+    // Declara uma vari√°vel inteira para armazenar o ano
     inteiro ano
     
-    // Solicita ao usu·rio para digitar um ano
+    // Solicita ao usu√°rio para digitar um ano
     escreva("Digite um ano: ")
 
-    // LÍ o valor inserido pelo usu·rio e armazena na vari·vel 'ano'
+    // L√™ o valor inserido pelo usu√°rio e armazena na vari√°vel 'ano'
     leia(ano)
 
-    // Verifica se o ano È bissexto usando a lÛgica correta
+    // Verifica se o ano √© bissexto usando a l√≥gica correta
     se(ano % 4 == 0)
     { 
       se (ano % 100 == 0)
       { 
         se (ano % 400 == 0)
         { 
-          escreva("O ano È bissexto")
+          escreva("O ano √© bissexto")
         }
         senao
         { 
-          escreva("O ano n„o È bissexto")
+          escreva("O ano n√£o √© bissexto")
         }
       }
       senao
       { 
-        escreva ("O ano È bissexto")
+        escreva ("O ano √© bissexto")
       }
     }
     senao 
     { 
-      escreva ("O ano n„o È bissexto")
+      escreva ("O ano n√£o √© bissexto")
     }
     }
   }
+
